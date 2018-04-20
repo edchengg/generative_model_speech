@@ -5,7 +5,7 @@ This repository contains a group of work for speech generation project at TTIC.
 
 ### TODO List
 
-- [ ] Data processing
+- [x] Data processing
 - [ ] VAE
 - [ ] GAN
 - [ ] VAE+GAN
