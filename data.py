@@ -2,11 +2,12 @@
 import scipy.io
 import numpy as np
 import gc
-# 1892966
+
 
 def w_frame(w, train, train_len):
     train_data = []
     start = 0
+    # for each utterance
     for idx in range(len(train_len)):
         len_num = train_len[idx]
         end = start + int(len_num)
@@ -15,17 +16,21 @@ def w_frame(w, train, train_len):
         length = len(utterance)
         sub_train_data = []
         i = 0
+        # check each frame in the utterance
         while i <= length-1:
+            # if silence, pass
             if utterance[i][-1] == 37:
                 i += 1
+            # select frames with same label
             else:
                 # use pointer to find same label array
                 label = utterance[i][-1]
                 j = i
                 while utterance[j][-1] == label and j < length - 1:
                     j += 1
+                # find mid idx
                 mid = i + (j - i) // 2
-
+                # get left part and right part and concatenate together
                 # padding
                 try:
                     w_frame_left = utterance[(mid-w//2):mid]
@@ -47,15 +52,15 @@ def w_frame(w, train, train_len):
 
                 w_frame = np.concatenate((w_frame_left,w_frame_right), axis=0)
                 sub_train_data.append(w_frame)
-
+                # check and update i
                 if i != j:
                     i = j
                 else:
                     i += 1
-
+                # force garbage collection
                 del w_frame_right, w_frame_left, w_frame
                 gc.collect()
-
+        # append into data list and force garbago collection
         train_data.append(sub_train_data)
         del sub_train_data
         del utterance
