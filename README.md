@@ -1,7 +1,8 @@
 # Generation Model in Speech
+
 ## Description
 
-This repository contains a group of work for speech generation project at TTIC. 
+This repository contains a group of work for speech generation project.
 
 ## TODO List
 
