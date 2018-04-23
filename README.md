@@ -31,7 +31,7 @@ After data processing (frame-window = 9):
 
 ## Phone label:
 |aa|0|ae|1|
-|:----:| :----:|
+|:----:| :----:|:----:| :----:|
 |ah|2|ao|3|
 |aw|4|ax|5|
 |ay|6|b|7|
