@@ -25,7 +25,8 @@ After data processing (frame-window = 9):
 
 |train_data| dev_data|test_data|
 | :-------------: |:-------------:| :-----:|
-|(3696,9,121)|(400,9,121)|(192,9,121)|
+|(3696,x,9,121)|(400,x,9,121)|(192,x,9,121)|
+|x: number of (9,121) depends on frame-length|
 |the last column is the label:train_data[0][0][:,-1]|
 |[37,37,37,33,33,5,5,5,5]|[37,37,37,7,7,7,34,34,34]|[37,37,37,43,43,43,21,21,21]|
 
