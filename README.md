@@ -29,8 +29,8 @@ After data processing:
 |e.g., the last column is the label:train_data[0][0][:,-1] = [37,37,37,33,33,5,5,5,5]|[37,37,37,7,7,7,34,34,34]|[37,37,37,43,43,43,21,21,21]|
 
 ## Phone label:
-|:--:|:--:|
 |aa|0|
+|:--:|:--:|
 |ae|1|
 |ah|2|
 |ao|3|
