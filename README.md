@@ -8,7 +8,7 @@ This repository contains a group of work for speech generation project.
 
 - [x] Data processing
 - [ ] VAE
-- [ ] GAN
+- [x] WGAN-GP
 - [ ] VAE+GAN
 
 ## Data
