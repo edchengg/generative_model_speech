@@ -11,6 +11,12 @@ This repository contains a group of work for speech generation project.
 - [x] WGAN-GP
 - [ ] VAE+GAN
 
+
+## WGAN-GP(Wasserstein GAN-gradient penalty)
+
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/wgan.png" width="300">
+
+[Improved Training of Wasserstein GANs](https://arxiv.org/pdf/1704.00028.pdf)
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
