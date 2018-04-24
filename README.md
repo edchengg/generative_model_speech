@@ -1,4 +1,4 @@
-# Generation Model in Speech
+# Generative Models
 
 ## Description
 
