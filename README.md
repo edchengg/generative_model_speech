@@ -7,7 +7,7 @@ This repository contains a group of work for speech generation project.
 ## TODO List
 
 - [x] Data processing
-- [ ] VAE
+- [x ] WAE
 - [x] WGAN-GP
 - [ ] VAE+GAN
 
@@ -20,6 +20,17 @@ This repository contains a group of work for speech generation project.
 ![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/result.gif)
 
 [Improved Training of Wasserstein GANs](https://arxiv.org/pdf/1704.00028.pdf)
+
+## WAE(Wasserstein GAN-gradient penalty)
+
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/wae_gan.png" width="800">
+
+### Results
+![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/result.gif)
+
+[Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
+
+
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
