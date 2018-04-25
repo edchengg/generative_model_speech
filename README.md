@@ -7,7 +7,7 @@ This repository contains a group of work for speech generation project.
 ## TODO List
 
 - [x] Data processing
-- [x ] WAE
+- [x] WAE
 - [x] WGAN-GP
 - [ ] VAE+GAN
 
@@ -17,7 +17,7 @@ This repository contains a group of work for speech generation project.
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/wgan.png" width="800">
 
 ### Results
-![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/result.gif)
+![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/gan_result.gif)
 
 [Improved Training of Wasserstein GANs](https://arxiv.org/pdf/1704.00028.pdf)
 
