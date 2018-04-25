@@ -21,12 +21,12 @@ This repository contains a group of work for speech generation project.
 
 [Improved Training of Wasserstein GANs](https://arxiv.org/pdf/1704.00028.pdf)
 
-## WAE(Wasserstein GAN-gradient penalty)
+## WAE(Wasserstein AutoEncoder)
 
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/wae_gan.png" width="800">
 
 ### Results
-![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/result.gif)
+![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae_result.gif)
 
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
 
