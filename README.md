@@ -9,7 +9,7 @@ This repository contains a group of work for speech generation project.
 - [x] Data processing
 - [x] WAE
 - [x] WGAN-GP
-- [ ] VAE+GAN
+- [x] VAE+GAN
 
 
 ## WGAN-GP(Wasserstein GAN-gradient penalty)
