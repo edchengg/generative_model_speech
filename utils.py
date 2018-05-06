@@ -211,7 +211,7 @@ def inv_spectrogram(X_s, size, step, n_iter=15):
 
     return np.real(X_best)
 
-def recover_sound(data,iteration,i):
+def recover_sound(data,iteration, direct):
     size = 256 # window size for the FFT
     step = size // 2 # distance to slide along the window in time
     nfilters = 40 # number of mel frequency channels
@@ -220,14 +220,14 @@ def recover_sound(data,iteration,i):
 
     data = data.data.numpy()
     mel_filter, mel_inv_filter, melpoints = mel_filterbank(nfilters, size, fs)
-
-    mfccs = dct(data.reshape((9,120))[:,:41], type=2, axis=1, norm='ortho')
+    #mfccs = dct(data.reshape((9, 120))[:, :40], type=2, axis=1, norm='ortho')
+    #mfccs = dct(data.reshape((9,40)), type=2, axis=1, norm='ortho')
 
     # invert from MFCCs back to waveform
-    recovered_log_mel_fbank = idct(mfccs, type=2, n=nfilters, axis=1, norm='ortho')
+    #recovered_log_mel_fbank = idct(mfccs, type=2, n=nfilters, axis=1, norm='ortho')
 
     # exponentiate log and invert mel warping
-    recovered_power = (10**recovered_log_mel_fbank).dot(mel_inv_filter)
+    recovered_power = (10**data.reshape(19,40)).dot(mel_inv_filter)
 
     # invert mel warping of spectrogram
     recovered_magnitude = np.sqrt(recovered_power * size)
@@ -235,10 +235,11 @@ def recover_sound(data,iteration,i):
     recovered_signal = inv_spectrogram(recovered_magnitude, size, step)
 
     # Look at specgram
-    fig, ax = plt.subplots(nrows=1,ncols=1, figsize=(18,4))
+    fig, ax = plt.subplots(nrows=1,ncols=1, figsize=(1,4))
     cax = ax.matshow(20*np.log10(recovered_magnitude.clip(1e-12)).T, origin='lower', **PLOT_CONFIG)
     fig.colorbar(cax, label='dB')
-    plt.title('log spectrogram recovered from MFCCS (dB)')
+    ax.grid(False)
+    plt.title('log spectrogram MelFilter Bank (dB)')
     plt.xlabel('# Frames')
     plt.ylabel('Indices')
     NQF = fs / 2
@@ -246,4 +247,5 @@ def recover_sound(data,iteration,i):
     frequencies = np.arange(0, NQF, NQF * 8 / recovered_magnitude.shape[1])
     plt.ylabel('Hz')
     plt.yticks(indices, frequencies)
-    plt.savefig('spect_'+str(iteration) + '_' + str(i))
+    plt.savefig('./figures/'+direct+'/spect_'+str(iteration))
+    plt.close()
