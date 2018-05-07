@@ -33,9 +33,20 @@ This repository contains a group of work for speech generation project.
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
 
 ## Convolutional VAE
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11_real.png" width="100">
 
-![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11.gif)
+real           |  reconstruct epoch(1-20)
+:-------------------------:|:-------------------------:
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11.gif)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11_real.png)
+
+
+real           |  reconstruct
+:-------------------------:|:-------------------------:
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_11.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_22.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_33.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_44.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_55.png)
+
 
 ## Data
 
