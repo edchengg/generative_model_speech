@@ -23,7 +23,9 @@ This repository contains a group of work for speech generation project.
 ### Results
 
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
-real           |  reconstruct epoch(1-20)
+
+
+real           |  reconstruct epoch(1-40)
 :-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae.gif)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_12.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_18.png)
