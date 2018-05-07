@@ -20,8 +20,6 @@ This repository contains a group of work for speech generation project.
 
 ## WAE(Wasserstein AutoEncoder)
 
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/wae_gan.png" width="800">
-
 ### Results
 
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
