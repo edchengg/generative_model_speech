@@ -32,6 +32,10 @@ This repository contains a group of work for speech generation project.
 
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
 
+## Convolutional VAE
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11_real.png" width="100">
+
+![Alt Text](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11.gif)
 
 ## Data
 
