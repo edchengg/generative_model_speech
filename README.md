@@ -31,6 +31,11 @@ real           |  reconstruct epoch(1-40)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_12.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_18.png)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_31.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_17.png)
 
+**Loss:**
+WAE-GAN     |  WAE-GAN with validation loss
+:-------------------------:|:-------------------------:
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_19_wae.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_19_wae_3.png)
+
 
 ## Convolutional VAE(Learning Latent Representations for Speech Generation and Transformation)
 
