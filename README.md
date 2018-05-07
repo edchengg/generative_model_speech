@@ -29,17 +29,19 @@ This repository contains a group of work for speech generation project.
 real           |  reconstruct epoch(1-20)
 :-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae_11.gif)
-
-
-real           |  reconstruct
-:-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_11.png)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_22.png)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_33.png)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_44.png)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_55.png)
 
-
+Model CVAE  Z_DIM=48      |  Model CVAE Z_DIM=64
+:-------------------------:|:-------------------------:
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_6.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_7.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_8.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_9.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_10.png)
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
