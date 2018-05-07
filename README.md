@@ -46,10 +46,15 @@ real           |  reconstruct epoch(1-20)
 :-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11.gif)
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_11.png)
+r,ix,vcl|
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_22.png)
+vcl,z,ae|
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_33.png)
+ae,m|
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_44.png)
+cl,p,uh|
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_55.png)
+uh,l,q|
 
 Model CVAE  Z_DIM=48      |  Model CVAE Z_DIM=64
 :-------------------------:|:-------------------------:
