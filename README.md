@@ -39,6 +39,8 @@ real           |  reconstruct epoch(1-40)
 
 ## Convolutional VAE(Learning Latent Representations for Speech Generation and Transformation)
 
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_model.png" width="800">
+
 real           |  reconstruct epoch(1-20)
 :-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11.gif)
