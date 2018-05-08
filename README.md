@@ -104,6 +104,10 @@ Transfer for batch training:
 |zh|48|
 
 
+## Test on CNN structure
+Real Image     |  Reconstruction
+:-------------------------:|:-------------------------:
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/mnist/real_images.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/mnist/reconst_images_8.png)
 
 
 
