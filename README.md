@@ -107,6 +107,7 @@ Transfer for batch training:
 ## Test on CNN structure
 
 The reconstruction result is fair. This means the implementation of the CNN structure is not a big concern of the model. Why does it produce poor reconstruction on the mel filterbank? Maybe my dataset is not good enough or 19 frames contains too many information (2 or 3 phone).
+
 Real Image     |  Reconstruction
 :-------------------------:|:-------------------------:
 ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/mnist/real_images.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/mnist/reconst_images_8.png)
