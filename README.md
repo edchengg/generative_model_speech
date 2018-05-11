@@ -42,27 +42,9 @@ real           |  reconstruct epoch(1-40)
 
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_model_1.png" width="800">
 
-real           |  reconstruct epoch(1-20)
+real           |  reconstruct 10 epochs
 :-------------------------:|:-------------------------:
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_11.gif)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_11.png)
-r,ix,vcl|
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_22.png)
-vcl,z,ae|
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_33.png)
-ae,m|
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_44.png)
-cl,p,uh|
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_55.png)
-uh,l,q|
-
-Model CVAE  Z_DIM=48      |  Model CVAE Z_DIM=64
-:-------------------------:|:-------------------------:
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_1.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_6.png)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_2.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_7.png)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_3.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_8.png)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_4.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_9.png)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_5.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_11_10.png)
+![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_19_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_19_10.png)
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
