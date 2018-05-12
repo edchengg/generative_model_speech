@@ -42,9 +42,9 @@ real           |  reconstruct epoch(1-40)
 
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_model_1.png" width="800">
 
-real           |  reconstruct 10 epochs
-:-------------------------:|:-------------------------:
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_19_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/spect_19_10.png)
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model2.png" width="800">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model22.png" width="800">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/recon.png" width="800">
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
