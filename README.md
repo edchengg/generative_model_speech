@@ -26,25 +26,23 @@ This repository contains a group of work for speech generation project.
 [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
 
 
-real           |  reconstruct epoch(1-40)
-:-------------------------:|:-------------------------:
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_real.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae.gif)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_12.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_18.png)
-![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_31.png)  |  ![](https://github.com/edchengg/generative_model_speech/blob/master/figures/wae/wae_17.png)
-
-**Loss:**
-
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_19_wae.png" width="400">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/model_19_wae_3.png" width="400">
-
 
 ## Convolutional VAE(Learning Latent Representations for Speech Generation and Transformation)
 
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/vae_model_1.png" width="800">
 
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model2.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model22.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/recon.png" width="600">
+### Training Loss:
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model44.png" width="600">
+
+### Training Set reconstruction
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_real.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_recon.png" width="600">
+
+### Validation set reconstruction
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_real.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_recon.png" width="600">
+
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
