@@ -9,7 +9,6 @@ This repository contains a group of work for speech generation project.
 - [x] Data processing
 - [x] WAE
 - [x] WGAN-GP
-- [ ] VAE+GAN
 - [x] CVAE(Learning Latent Representations for Speech Generation and Transformation)
 
 ## WGAN-GP(Wasserstein GAN-gradient penalty)
