@@ -49,7 +49,12 @@ This repository contains a group of work for speech generation project.
 
 ## Tuning
 ### Training Loss:
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/loss_plot.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/loss_plot.png" width="400">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/adam_sgd.png" width="400">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/loss_diff.png" width="400">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/loss_plot_20.png" width="400">
+
+
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
