@@ -47,6 +47,9 @@ This repository contains a group of work for speech generation project.
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_real.png" width="600">
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_recon.png" width="600">
 
+## Tuning
+### Training Loss:
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/loss_plot.png" width="600">
 ## Data
 
 Logmel_normalized_48Label_Framealigned.mat
