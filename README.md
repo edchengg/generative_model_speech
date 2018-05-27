@@ -38,14 +38,16 @@ This repository contains a group of work for speech generation project.
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model44.png" width="600">
 
 ### Training Set reconstruction
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_real.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_recon.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model66_real2.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model66_recon2.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/training.png" width="600">
 
 ### Validation set reconstruction
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_real.png" width="600">
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/model4_dev_recon.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/validation.png" width="600">
+
+### Testing set reconstruction
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/testing.png" width="600">
+
+### Sampling
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sampling.png" width="600">
 
 ## Tuning
 ### Training Loss:
