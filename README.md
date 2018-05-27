@@ -19,8 +19,8 @@ This repository contains a pytorch implementation of the paper [Learning Latent 
 ### Testing set reconstruction
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/testing.png" width="600">
 
-### Sampling
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sampling.png" width="600">
+### Generation
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
 
 ## Tuning
 ### Training Loss:
