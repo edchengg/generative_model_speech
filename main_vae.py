@@ -42,8 +42,8 @@ parser.add_argument('--L2', type=float, default=1e-4,
                     help='L2 regularization')
 parser.add_argument('--ID', type=int, default=0,
                     help='plot figure label')
-parser.add_argument('--spect', action='store_true',
-                    help='use spectrogram as input 19 frame')
+parser.add_argument('--nfilter', type=int, default=40,
+                    help='number of filters in mel filter bank')
 args = parser.parse_args()
 
 ############################################### Parameters #################################################
@@ -76,7 +76,6 @@ Z_DIM = args.zdim
 
 
 FRAME = 19
-SPECT = args.spect
 ID = args.ID
 
 torch.manual_seed(args.seed)
@@ -87,40 +86,64 @@ if use_cuda:
 
 ####################################### Load data ############################################
 
-if SPECT:
-    data_train = np.load('./data/train_8_19_unnormalized.npy')
+if args.nfilter == 40:
+    data_train = np.load('/share/data/speech/yangc1/train_'+str(args.nfilter)+'.npy')
     train_loader = torch.utils.data.DataLoader(data_train,
                                               batch_size=BATCH_SIZE,
                                               shuffle=True)
 
-    data_dev = np.load('./data/dev_8_19_unnormalized.npy')
+    data_dev = np.load('/share/data/speech/yangc1/dev_'+str(args.nfilter)+'.npy')
     dev_loader = torch.utils.data.DataLoader(data_dev,
                                              batch_size=BATCH_SIZE,
                                              shuffle=True)
-else:
-    data_train = np.load('./data/train_unnormalized.npy')
+    data_test = np.load('/share/data/speech/yangc1/test_' + str(args.nfilter) + '.npy')
+    test_loader = torch.utils.data.DataLoader(data_test,
+                                             batch_size=BATCH_SIZE,
+                                             shuffle=True)
+
+elif args.nfilter == 64:
+    data_train = np.load('/share/data/speech/yangc1/train_'+str(args.nfilter)+'.npy')
     train_loader = torch.utils.data.DataLoader(data_train,
                                               batch_size=BATCH_SIZE,
                                               shuffle=True)
 
-    data_dev = np.load('./data/dev_unnormalized.npy')
+    data_dev = np.load('/share/data/speech/yangc1/dev_'+str(args.nfilter)+'.npy')
     dev_loader = torch.utils.data.DataLoader(data_dev,
                                               batch_size=BATCH_SIZE,
                                               shuffle=True)
 
+    data_test = np.load('/share/data/speech/yangc1/test_' + str(args.nfilter) + '.npy')
+    test_loader = torch.utils.data.DataLoader(data_test,
+                                              batch_size=BATCH_SIZE,
+                                              shuffle=True)
+elif args.nfilter == 80:
+    data_train = np.load('/share/data/speech/yangc1/train_'+str(args.nfilter)+'.npy')
+    train_loader = torch.utils.data.DataLoader(data_train,
+                                              batch_size=BATCH_SIZE,
+                                              shuffle=True)
+
+    data_dev = np.load('/share/data/speech/yangc1/dev_'+str(args.nfilter)+'.npy')
+    dev_loader = torch.utils.data.DataLoader(data_dev,
+                                              batch_size=BATCH_SIZE,
+                                              shuffle=True)
+
+    data_test = np.load('/share/data/speech/yangc1/test_' + str(args.nfilter) + '.npy')
+    test_loader = torch.utils.data.DataLoader(data_test,
+                                              batch_size=BATCH_SIZE,
+                                              shuffle=True)
 
 
 if LOG_VAR_ is None:
     model = VAE(Z_DIM,
                 dropout=dropout,
                 relu=leakyrelu,
-                spectrogram=SPECT)
+                n_filters=args.nfilter)
 else:
     model = VAE(Z_DIM,
                 LOG_VAR_,
                 dropout=dropout,
                 relu=leakyrelu,
-                spectrogram=SPECT)
+                n_filters=args.nfilter)
 
 if use_cuda:
     model.cuda()
@@ -234,12 +257,15 @@ def main():
         if dev_loss[0] < best_loss:
             torch.save(model.state_dict(), 'save/best_model_' + str(ID) + '.pt')
             best_loss = dev_loss[0]
+            test_loss= evaluate(test_loader)
+            np.save('./loss/test_loss_' + str(ID), np.asarray(test_loss))
 
     train_loss_plot = np.vstack(train_loss_plot)
     dev_loss_plot = np.vstack(dev_loss_plot)
     plot_loss(train_loss_plot, dev_loss_plot, ID)
     np.save('./loss/train_loss_'+str(ID), train_loss_plot)
     np.save('./loss/dev_loss_'+str(ID), dev_loss_plot)
+
 
 
 if __name__ == '__main__':
