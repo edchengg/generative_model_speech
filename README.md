@@ -23,7 +23,7 @@ This repository contains a pytorch implementation of the paper [Learning Latent 
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
 
 ### Conversion Male to Female
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/Conversion_M2F.png" width="400">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/Conversion_M2F.png" width="600">
 
 
 ## Tuning
