@@ -22,6 +22,10 @@ This repository contains a pytorch implementation of the paper [Learning Latent 
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
 
+### Conversion Male to Female
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/Conversion_M2F.png" width="400">
+
+
 ## Tuning
 ### Training Loss:
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/diff_loss/loss_plot.png" width="400">
