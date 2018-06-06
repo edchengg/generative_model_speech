@@ -49,4 +49,29 @@ usage: main_vae.py [-h] [--lr LR] [--batch_size N] [--clip CLIP]
                    [--dropout DROPOUT] [--leakyrelu LEAKYRELU] [--adam]
                    [--beta1 BETA1] [--beta2 BETA2] [--eps EPS] [--L2 L2]
                    [--ID ID] [--nfilter NFILTER]
+                   
+VAE speech reconstruction
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --lr LR               initial learning rate
+  --batch_size N        batch size
+  --clip CLIP           gradient clipping
+  --epochs EPOCHS       upper epoch limit
+  --seed SEED           random seed
+  --zdim ZDIM           number of latent variables
+  --Lambda LAMBDA       lambda for KL
+  --gamma GAMMA         gamma for reconstruction
+  --logvar LOGVAR       log variance
+  --BCE                 cross entropy loss
+  --dropout DROPOUT     dropout rate
+  --leakyrelu LEAKYRELU
+                        leaky relu rate
+  --adam                use adam
+  --beta1 BETA1         beta1
+  --beta2 BETA2         beta2
+  --eps EPS             epsilon
+  --L2 L2               L2 regularization
+  --ID ID               plot figure label
+  --nfilter NFILTER     number of filters in mel filter bank
 ```
