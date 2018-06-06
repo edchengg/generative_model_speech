@@ -22,7 +22,7 @@ Reconstructed sound example: [Reconstruction](https://drive.google.com/open?id=1
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/Conversion_M2F.png" width="600">
 Input Male sound example: [Male sound](https://drive.google.com/open?id=1wjHh6YXSDWsE_r_ZJ2aoTRO2GlCOwSg_)
 
-Output Female sound example:[Modified sound](https://drive.google.com/open?id=1ILwvU30PX4qo3jyy4g4sJdT0mArZAhgs)
+Output Female sound example: [Modified sound](https://drive.google.com/open?id=1ILwvU30PX4qo3jyy4g4sJdT0mArZAhgs)
 
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
