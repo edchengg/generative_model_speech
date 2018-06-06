@@ -19,12 +19,16 @@ This repository contains a pytorch implementation of the paper [Learning Latent 
 ### Testing set reconstruction
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/testing.png" width="600">
 
+Input sound example: [Real](https://drive.google.com/open?id=1T3DtVVw87XwBFYkIsMbu_NaR4WJbfNNV)
+Reconstructed sound example: [Reconstruction](https://drive.google.com/open?id=1MKPfCWWNlJ0dGXa5p4c9UDrEa6WTvn1r)
+
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
 
 ### Conversion Male to Female
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/Conversion_M2F.png" width="600">
-
+Input Male sound example: [Male sound](https://drive.google.com/open?id=1wjHh6YXSDWsE_r_ZJ2aoTRO2GlCOwSg_)
+Output Female sound example:[Modify sound](https://drive.google.com/open?id=1ILwvU30PX4qo3jyy4g4sJdT0mArZAhgs)
 
 ## Tuning
 ### Training Loss:
