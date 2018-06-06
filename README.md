@@ -42,5 +42,11 @@ The input data is then converted to size = [1,760/1216/1520].
 
 ## Run
 ```
-python main_vae.py --epoch 400 --gamma 3 --dropout 0 --leakyrelu 0.4 --ID 1 --lr 1e-3 --zdim 128 --logvar 0 --nfilter 40
+$ python main_vae.py --help
+usage: main_vae.py [-h] [--lr LR] [--batch_size N] [--clip CLIP]
+                   [--epochs EPOCHS] [--seed SEED] [--zdim ZDIM]
+                   [--Lambda LAMBDA] [--gamma GAMMA] [--logvar LOGVAR] [--BCE]
+                   [--dropout DROPOUT] [--leakyrelu LEAKYRELU] [--adam]
+                   [--beta1 BETA1] [--beta2 BETA2] [--eps EPS] [--L2 L2]
+                   [--ID ID] [--nfilter NFILTER]
 ```
