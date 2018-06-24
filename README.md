@@ -12,7 +12,9 @@ This repository contains a pytorch implementation of the paper [Learning Latent 
 
 
 ### Testing set reconstruction
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/testing.png" width="600">
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sa2_spectrogram_80_128_recon.png" width="600">
+
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sa2_waveform_80_128.png" width="600">
 
 Input sound example: [Real](https://drive.google.com/open?id=1T3DtVVw87XwBFYkIsMbu_NaR4WJbfNNV)
 
@@ -23,6 +25,12 @@ Reconstructed sound example: [Reconstruction](https://drive.google.com/open?id=1
 Input Male sound example: [Male sound](https://drive.google.com/open?id=1wjHh6YXSDWsE_r_ZJ2aoTRO2GlCOwSg_)
 
 Output Female sound example: [Modified sound](https://drive.google.com/open?id=1ILwvU30PX4qo3jyy4g4sJdT0mArZAhgs)
+
+### Conversion Female to Male
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sx197_sx366_spectrogram_80_128_f2m.png" width="600">
+
+### Conversion Male to Female
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sx197_sx366_spectrogram_80_128_m2f.png" width="600">
 
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
