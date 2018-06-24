@@ -32,6 +32,9 @@ Output Female sound example: [Modified sound](https://drive.google.com/open?id=1
 ### Conversion Male to Female
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sx197_sx366_spectrogram_80_128_m2f.png" width="600">
 
+### T-SNe
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/tsne_gender.png" width="600">
+
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
 
