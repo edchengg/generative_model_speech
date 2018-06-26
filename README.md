@@ -33,7 +33,14 @@ Output Female sound example: [Modified sound](https://drive.google.com/open?id=1
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/sx197_sx366_spectrogram_80_128_m2f.png" width="600">
 
 ### T-SNe
-<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/tsne_gender.png" width="600">
+
+#### Gender
+
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/tsne_gender.png" width="400">
+
+#### Dialect
+
+<img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/tsne_dr.png" width="400">
 
 ### Generation
 <img src="https://github.com/edchengg/generative_model_speech/blob/master/figures/vae/generation.png" width="600">
